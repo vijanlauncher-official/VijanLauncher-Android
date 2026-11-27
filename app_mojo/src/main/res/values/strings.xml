@@ -21,7 +21,7 @@
     <string name="alerttitle_installmod">Select a mod installer</string>
 
     <!-- Error messages -->
-    <string name="error_fatal">MJLauncher has unexpectedly crashed</string>
+    <string name="error_fatal">VijanLauncher has unexpectedly crashed</string>
     <string name="error_no_version">No version!</string>
     <string name="error_show_more">Show more</string>
     <string name="error_show_less">Show less</string>
@@ -44,7 +44,7 @@
     <string name="mcl_launch_downloading_progress">"Downloading %s (%.2f MB / %.2f MB)"</string>
     <string name="mcl_launch_download_assets">Preparing to download resources</string>
 
-    <string name="mcl_options">Options</string>
+    <string name="mcl_options">Settings</string>
     <string name="mcl_option_customcontrol">Custom controls</string>
 
 
@@ -103,16 +103,16 @@
     <!-- MainActivity: Control buttons -->
     <string name="control_chat">Chat</string>
     <string name="control_debug">Debug</string>
-    <string name="control_primary">Pri</string>
-    <string name="control_secondary">Sec</string>
+    <string name="control_primary">LMB</string>
+    <string name="control_secondary">RMB</string>
     <string name="control_shift">◇</string>
     <string name="control_inventory">Inv</string>
     <string name="control_up">▲</string>
     <string name="control_left">◀</string>
     <string name="control_right">▶</string>
     <string name="control_down">▼</string>
-    <string name="control_jump">⬛</string>
-    <string name="control_thirdperson">3rd</string>
+    <string name="control_jump">⏫</string>
+    <string name="control_thirdperson">F5</string>
     <string name="control_listplayers">Tab</string>
     <string name="control_mouse">Mouse</string>
     <string name="control_mouseoff">Mouse: off</string>
@@ -130,7 +130,7 @@
     <string name="import_control_import_button">import controls</string>
     <string name="import_control_verifying_file">File is being verified, please wait and try again…</string>
     <string name="import_control_invalid_name">Invalid name or file already exists</string>
-    <string name="import_control_done">Importation done</string>
+    <string name="import_control_done">Import done</string>
     <!--
     <string name="control_more3"></string>
     <string name="control_more4"></string>
