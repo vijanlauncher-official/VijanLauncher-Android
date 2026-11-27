@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Light or not? -->
-    <style name="MojoLauncher" parent="@style/Theme.AppCompat.NoActionBar">
+    <style name="VijanLauncher" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -9,18 +9,19 @@
         <item name="android:navigationBarColor">@color/background_app</item>
         <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
         <item name="android:textSize">@dimen/_12ssp</item>
-        <item name="dialogCornerRadius">0dp</item>
-        <item name="android:seekBarStyle">@style/MojoLauncher.SeekBar</item>
-        <item name="seekBarStyle">@style/MojoLauncher.SeekBar</item>
-        <item name="android:switchStyle">@style/MojoLauncher.Switch</item>
-        <item name="switchStyle">@style/MojoLauncher.Switch</item>
-        <item name="buttonStyle">@style/MojoLauncher.Button</item>
-        <item name="android:buttonStyleToggle">@style/MojoLauncher.Button.Toggle</item>
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="android:seekBarStyle">@style/VijanLauncher.SeekBar</item>
+        <item name="seekBarStyle">@style/VijanLauncher.SeekBar</item>
+        <item name="android:switchStyle">@style/VijanLauncher.Switch</item>
+        <item name="switchStyle">@style/VijanLauncher.Switch</item>
+        <item name="buttonStyle">@style/VijanLauncher.Button</item>
+        <item name="android:buttonStyle">@style/VijanLauncher.Button</item>
+        <item name="android:buttonStyleToggle">@style/VijanLauncher.Button.Toggle</item>
     </style>
 
-    <style name="MojoLauncher.AppTheme" parent="MojoLauncher"/>
+    <style name="VijanLauncher.AppTheme" parent="VijanLauncher"/>
 
-    <style name="MojoLauncher.SeekBar" parent="Widget.AppCompat.SeekBar">
+    <style name="VijanLauncher.SeekBar" parent="Widget.AppCompat.SeekBar">
         <item name="android:progressDrawable">@drawable/minepb_progress</item>
         <item name="android:thumb">@drawable/mineknob_on_unfiltered</item>
         <item name="android:thumbOffset">0dp</item>
@@ -28,7 +29,7 @@
         <item name="android:minHeight">4dp</item>
     </style>
 
-    <style name="MojoLauncher.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+    <style name="VijanLauncher.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
         <item name="track">@drawable/mineknob_track_mask_unfiltered</item>
         <item name="trackTint">@color/mineknob_track_tint</item>
         <item name="trackTintMode">multiply</item>
@@ -36,11 +37,11 @@
         <item name="switchMinWidth">40dp</item>
     </style>
 
-    <style name="MojoLauncher.Button" parent="Widget.AppCompat.Button">
+    <style name="VijanLauncher.Button" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/button_flat</item>
     </style>
 
-    <style name="MojoLauncher.Button.Toggle" parent="MojoLauncher.Button">
+    <style name="VijanLauncher.Button.Toggle" parent="VijanLauncher.Button">
         <item name="android:background">@drawable/button_flat_toggle</item>
     </style>
 
@@ -52,7 +53,7 @@
     </style>
 
     <style name="LauncherMenuButton" parent="Widget.AppCompat.Button">
-        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:background">@drawable/button_flat</item>
     </style>
 
     <style name="LauncherMenuButton.Universal" parent="LauncherMenuButton">
