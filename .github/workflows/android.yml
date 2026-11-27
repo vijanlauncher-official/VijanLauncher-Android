@@ -31,4 +31,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: VijanLauncher-Debug-APK
-          path: app_mojo/build/outputs/apk/debug/*.apk
+          path: app_mojo/build/outputs/apk/**/*.apk
+
